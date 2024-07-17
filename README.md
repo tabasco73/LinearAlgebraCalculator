@@ -1,5 +1,11 @@
 # Linear Algebra Calculator for Matrix Properties
 
+## Introduction
+
+This a calculator for matrix properties in linear algebra. The purpose of this is to demonstrate how using an object oriented programming paradigm and giving an LLM access to the classes can be used as a way to perform calculations, like it would through an API. The advantages of this is that it can build onto the codebase and perhaps create more complex programs around the classes.
+
+The important stuff is in the backend where sagemath code is executed, premade code and agents are.
+
 ## Installation Guide
 
 ### Step 1: Download SageMath
