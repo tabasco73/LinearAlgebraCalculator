@@ -1,0 +1,10 @@
+Let $A$ be the following matrix:
+$$
+A=\left[\begin{array}{cccc}
+1 & -1 & 1 & 0 \\
+-1 & 0 & -1 & 0 \\
+0 & 1 & 0 & 0 \\
+1 & 1 & 1 & 1
+\end{array}\right]
+$$
+Is the matrix diagonalisable?

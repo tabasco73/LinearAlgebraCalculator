@@ -1,0 +1,10 @@
+Låt $V=\mathbb{C}[x]_{\leq 4}$ vara vektorrummet av polynom av grad $\leq 4$. Låt $L: V \longrightarrow V$ vara operatorn $I-\left(\frac{d}{d x}\right)^{2}$, dvs den som ges av $L(p)(x)=p(x)-p^{\prime \prime}(x)$ och representeras av matrisen 
+$$A =
+\left[\begin{array}{ccccc}
+1 & 0 & -2 & 0 & 0 \\
+0 & 1 & 0 & -6 & 0 \\
+0 & 0 & 1 & 0 & -12 \\
+0 & 0 & 0 & 1 & 0 \\
+0 & 0 & 0 & 0 & 1
+\end{array}\right]
+$$. Bestäm Jordans normalform för $L$.

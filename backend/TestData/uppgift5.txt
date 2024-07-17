@@ -1,0 +1,1 @@
+Låt $A=\left[\begin{array}{cc}0 & -1 \\ 4 & 4\end{array}\right]$. Bestäm Jordans normalform till $A$.

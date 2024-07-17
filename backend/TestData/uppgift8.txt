@@ -1,0 +1,9 @@
+Låt $A$ vara $3 \times 3$-matrisen med element $\mathrm{i} \mathbb{Z}_{2}$ - heltalen modulo 2 - som ges av
+$$
+A=\left[\begin{array}{lll}
+1 & 1 & 1 \\
+1 & 0 & 1 \\
+1 & 1 & 0
+\end{array}\right]
+$$
+Bestäm minimalpolynomet till $A$ och avgör om $A$ är diagonaliserbar.

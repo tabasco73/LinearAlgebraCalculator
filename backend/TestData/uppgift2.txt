@@ -1,0 +1,7 @@
+Bestäm Jordans normalform för den operator på $\mathbb{C}^{2}$ som ges av matrisen
+$$
+A=\left[\begin{array}{cc}
+3 & i \sqrt{2} \\
+2 i \sqrt{2} & -1
+\end{array}\right] 
+$$

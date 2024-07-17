@@ -1,0 +1,10 @@
+Låt $A$ vara följande matris med element i kroppen $\mathbb{F}_{2}=\mathbb{Z} / 2 \mathbb{Z}=\{0,1\}$ :
+$$
+A=\left[\begin{array}{llll}
+0 & 1 & 1 & 1 \\
+0 & 1 & 0 & 1 \\
+0 & 1 & 1 & 1 \\
+0 & 1 & 0 & 1
+\end{array}\right]
+$$
+Bestäm det karakteristiska polynomet $p_{A}(x)$, minimalpolynomet $q_{A}(x)$ och Jordans normalform till $A$.

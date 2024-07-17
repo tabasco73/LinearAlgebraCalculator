@@ -1,0 +1,9 @@
+flask
+transformers
+torch
+openai
+tiktoken
+gunicorn
+python-dotenv
+requests
+flask_cors

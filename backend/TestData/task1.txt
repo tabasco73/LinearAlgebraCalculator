@@ -1,0 +1,10 @@
+Let \( A \) be the following matrix with elements in the field \( \mathbb{F}_{2}=\mathbb{Z} / 2 \mathbb{Z}=\{0,1\} \):
+$$
+A=\left[\begin{array}{llll}
+0 & 1 & 1 & 1 \\
+0 & 1 & 0 & 1 \\
+0 & 1 & 1 & 1 \\
+0 & 1 & 0 & 1
+\end{array}\right]
+$$
+Determine the characteristic polynomial \( p_{A}(x) \), the minimal polynomial \( q_{A}(x) \), and the Jordan normal form of \( A \).

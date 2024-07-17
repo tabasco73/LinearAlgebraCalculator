@@ -1,0 +1,8 @@
+Låt $V$ vara vektorrummet av komplexa $2 \times 2$-matriser. Låt $L: V \longrightarrow V$ vara operatorn som definieras av följande matrismultiplikation:
+$$
+L(A)=\left[\begin{array}{ll}
+1 & 2 \\
+0 & 1
+\end{array}\right] A
+$$
+Bestäm Jordans normalform för $L$.

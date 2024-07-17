@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+.chat-input {
+    background-color: #2a2a2a;
+    transition: all 0.3s ease;
+}
+
+.chat-input:focus-within {
+    box-shadow: 0 0 0 2px rgba(168, 85, 247, 0.5);
+}
+
+.recent-chat {
+    background-color: #2a2a2a;
+    transition: all 0.3s ease;
+}
+
+.recent-chat:hover {
+    background-color: #3a3a3a;
+    transform: translateY(-2px);
+}
+
+.star {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 0.6; }
+    50% { opacity: 1; }
+    100% { opacity: 0.6; }
+}
+
+.hidden {
+    display: none;
+}
+
+
+#typingIndicator {
+    opacity: 0;
+}
+
+.typing-animation {
+    display: inline-block;
+    animation: typing 1s infinite;
+}
+
+@keyframes typing {
+    0% { opacity: 0.2; }
+    20% { opacity: 1; }
+    100% { opacity: 0.2; }
+}

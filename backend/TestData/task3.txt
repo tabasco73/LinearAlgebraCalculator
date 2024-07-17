@@ -1,0 +1,8 @@
+Let \( V \) be the vector space of complex \( 2 \times 2 \) matrices. Let \( L: V \longrightarrow V \) be the operator defined by the following matrix multiplication:
+$$
+L(A)=\left[\begin{array}{ll}
+1 & 2 \\
+0 & 1
+\end{array}\right] A
+$$
+Determine the Jordan normal form for \( L \).
