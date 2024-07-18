@@ -45,6 +45,8 @@ Latex compiling is in progress!
 Ensure you have SageMath installed. You can download it from the following link:
 [SageMath Download for Windows](https://www.sagemath.org/download-windows.html)
 
+https://github.com/3-manifolds/Sage_macOS/releases
+
 *Note: This guide assumes you are using SageMath version 10.3.*
 
 ### Step 2: Install Necessary Node Packages
