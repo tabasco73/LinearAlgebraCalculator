@@ -6,6 +6,36 @@ This a calculator for matrix properties in linear algebra. The purpose of this i
 
 The important stuff is in the backend where sagemath code is executed, premade code and agents are.
 
+The calculator can determine properties related to singular value decomposition and pseudoinverses on the one hand and diagonalization on the other hand.
+Examples: singular value decomposition and pseudoinverses
+    - singular value decomposition
+    - pseudoinverse
+    - singular values
+    - singular vectors
+    - orthonormal basis
+    - sigma matrix
+    - Y matrix
+    - X matrix
+    - Hermitian conjugate
+    - AA^{\dagger}, A^{\dagger}A
+
+Examples: diagonalization:
+    - characteristic polynomial
+    - eigenspaces
+    - minimal polynomial
+    - eigenvalues
+    - eigenvectors
+    - geometric multipcity (eigenvalues)
+    - algebraic multipcity (eigenvalues)
+    - Jordanbasis
+    - Jordanform
+    - Jordan transformation matrix
+    - Diagonalizability
+
+The calculator should work if you don't give it a too crazy field or too large matrix. I have not yet seen any false positives for these examples, i.e. giving a wrong answer instead of failing. If you get it, contact me ASAP ;)- rasmus.bjersing@gmail.com . You could use it for other math questions, but it is not its intended use. Since I am using Sagemath and letting an agent iterate on responses it could be better than other math agents in some regards but the prompt engineering is steered towards operating as a calculator for the examples above and using the existing codebase rather than solving stuff on its own.
+
+Latex compiling is in progress!
+
 ## Installation Guide
 
 ### Step 1: Download SageMath
@@ -65,7 +95,7 @@ Run the SageMath agent script:
     ```
 
 3. Open your browser and navigate to:
-    [http://localhost:8080/templates/](http://localhost:8080/templates/)
+    [http://localhost:8080/frontend/templates/](http://localhost:8080/frontend/templates/)
 
 
 ## Example Questions
@@ -100,7 +130,7 @@ Here are some example questions you can ask the calculator:
     Determine the characteristic polynomial \( p_{A}(x) \), the minimal polynomial \( q_{A}(x) \), and the Jordan normal form of \( A \).
     ```
 
-3. **Jordan Normal Form for a Linear Operator:**
+3. **Jordan Normalform:**
     ```plaintext
     Let $A$ be the following real matrix.
 $$
@@ -111,7 +141,13 @@ A=\left[\begin{array}{cccc}
 1 & 1 & 1 & 1
 \end{array}\right]
 $$
-Determine the characteristic polynomial $p_{A}(t)$ and the minimal polynomial $q_{A}(t)$.
+Determine the Jordan normal.
+    ```
+
+4. **Singular Values:**
+    ```plaintext
+    Consider the complex matrix \(A=\left[\begin{array}{cc}1 & 1 \\ -i & i \\ i & i\end{array}\right]\).
+Determine the singular values of \(A\).
     ```
 
 Feel free to experiment with these example questions to explore the capabilities of the calculator.

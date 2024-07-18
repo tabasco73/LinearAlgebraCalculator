@@ -627,12 +627,12 @@ class JordanForm(QuadraticMatrix):
         super().__init__(matrix, field)
 
 # Step 1: Instantiate the matrix object
-matrix_L = QuadraticMatrix(matrix=[[_sage_const_1 , _sage_const_2 ], [_sage_const_0 , _sage_const_1 ]], field=CC)
+A = Matrix_Representation(matrix=[[_sage_const_1 , _sage_const_1 ], [-I, I], [I, I]], field=CC)
 
-# Step 2: Compute the Jordan normal form of the matrix
-jordan_form_L = matrix_L.jordan_form()
+# Step 2: Calculate the singular values
+singular_values = A.calculate_singular_values()
 
-# Step 3: Print the result
-print(jordan_form_L)
+# Step 3: Print the results
+print(singular_values)
 
 
