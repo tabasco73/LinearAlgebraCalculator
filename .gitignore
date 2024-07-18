@@ -4,5 +4,6 @@ venv/
 node_modules/
 backend/__pycache__/
 backend/utility/__pycache__/
+backend/sage_execution/__pycache__/
 backend/temp_sage_script.sage
 backend/temp_sage_script.sage.py.env
