@@ -7,30 +7,32 @@ This a calculator for matrix properties in linear algebra. The purpose of this i
 The important stuff is in the backend where sagemath code is executed, premade code and agents are.
 
 The calculator can determine properties related to singular value decomposition and pseudoinverses on the one hand and diagonalization on the other hand.
-Examples: singular value decomposition and pseudoinverses
-    - singular value decomposition
-    - pseudoinverse
-    - singular values
-    - singular vectors
-    - orthonormal basis
-    - sigma matrix
-    - Y matrix
-    - X matrix
-    - Hermitian conjugate
-    - AA^{\dagger}, A^{\dagger}A
+### Examples: Singular Value Decomposition and Pseudoinverses
 
-Examples: diagonalization:
-    - characteristic polynomial
-    - eigenspaces
-    - minimal polynomial
-    - eigenvalues
-    - eigenvectors
-    - geometric multipcity (eigenvalues)
-    - algebraic multipcity (eigenvalues)
-    - Jordanbasis
-    - Jordanform
-    - Jordan transformation matrix
-    - Diagonalizability
+- **Singular Value Decomposition (SVD)**
+- **Pseudoinverse**
+- **Singular Values**
+- **Singular Vectors**
+- **Orthonormal Basis**
+- **Sigma Matrix**
+- **Y Matrix**
+- **X Matrix**
+- **Hermitian Conjugate**
+- **AA<sup>†</sup>, A<sup>†</sup>A**
+
+### Examples: Diagonalization
+
+- **Characteristic Polynomial**
+- **Eigenspaces**
+- **Minimal Polynomial**
+- **Eigenvalues**
+- **Eigenvectors**
+- **Geometric Multiplicity (Eigenvalues)**
+- **Algebraic Multiplicity (Eigenvalues)**
+- **Jordan Basis**
+- **Jordan Form**
+- **Jordan Transformation Matrix**
+- **Diagonalizability**
 
 The calculator should work if you don't give it a too crazy field or too large matrix. I have not yet seen any false positives for these examples, i.e. giving a wrong answer instead of failing. If you get it, contact me ASAP ;)- rasmus.bjersing@gmail.com . You could use it for other math questions, but it is not its intended use. Since I am using Sagemath and letting an agent iterate on responses it could be better than other math agents in some regards but the prompt engineering is steered towards operating as a calculator for the examples above and using the existing codebase rather than solving stuff on its own.
 
