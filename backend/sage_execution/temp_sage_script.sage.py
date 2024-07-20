@@ -627,12 +627,12 @@ class JordanForm(QuadraticMatrix):
         super().__init__(matrix, field)
 
 # Step 1: Instantiate the matrix object
-A = Matrix_Representation(matrix=[[_sage_const_1 , _sage_const_1 ], [-I, I], [I, I]], field=CC)
+A_matrix = QuadraticMatrix(matrix=[[_sage_const_1 , -_sage_const_1 , _sage_const_1 , _sage_const_0 ], [-_sage_const_1 , _sage_const_0 , -_sage_const_1 , _sage_const_0 ], [_sage_const_0 , _sage_const_1 , _sage_const_0 , _sage_const_0 ], [_sage_const_1 , _sage_const_1 , _sage_const_1 , _sage_const_1 ]])
 
-# Step 2: Calculate the singular values
-singular_values = A.calculate_singular_values()
+# Step 2: Use the appropriate method to check if the matrix is diagonalizable
+is_diagonalizable_A = A_matrix.is_diagonalizable()
 
-# Step 3: Print the results
-print(singular_values)
+# Step 3: Print the result
+print(is_diagonalizable_A)
 
 
