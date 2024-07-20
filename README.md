@@ -88,13 +88,9 @@ Run the SageMath agent script:
 
 1. Start the backend server:
     ```sh
-    python3 backend/server.py
+    python3 main.py
     ```
 
-2. In a new terminal, start the HTTP server:
-    ```sh
-    python -m http.server 8080
-    ```
 
 3. Open your browser and navigate to:
     [http://localhost:8080/frontend/templates/](http://localhost:8080/frontend/templates/)
